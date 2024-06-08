@@ -12,7 +12,12 @@ public class LacosCondicionaisExercicio5 {
 		Scanner leia = new Scanner(System.in);
 		
 		System.out.println("\t\tEscolha o código do produto\n");
-		System.out.println("1- Carrocho Quente \t\tPreço unitário: R$10,00\n2- X-salada \t\t\tPreço unitário: R$15,00\n3- X-bacon \t\t\tPreço unitário: R$18,00\n4- Bauru \t\t\tPreço unitário: R$12,00\n5- Refrigerante \t\tPreço unitário: R$8,00\n6- Suco de Laranja \t\tPreço unitário: R$13,00\n");
+		System.out.println("1- Carrocho Quente \t\tPreço unitário: R$10,00"
+				+ "\n2- X-salada \t\t\tPreço unitário: R$15,00"
+				+ "\n3- X-bacon \t\t\tPreço unitário: R$18,00"
+				+ "\n4- Bauru \t\t\tPreço unitário: R$12,00"
+				+ "\n5- Refrigerante \t\tPreço unitário: R$8,00"
+				+ "\n6- Suco de Laranja \t\tPreço unitário: R$13,00\n");
 		codProduto = leia.nextInt();
 		
 		System.out.println("\nEscolha a quantidade desejada: ");
@@ -25,7 +30,7 @@ public class LacosCondicionaisExercicio5 {
 			break;
 		case 2:
 			total = quantidade*15;
-			System.out.printf("Produto: X-salaDA \nValor tota: R$%d", total);
+			System.out.printf("Produto: X-salada \nValor tota: R$%d", total);
 			break;
 		case 3:
 			total = quantidade*18;

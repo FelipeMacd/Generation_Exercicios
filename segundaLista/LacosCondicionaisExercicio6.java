@@ -14,7 +14,7 @@ public class LacosCondicionaisExercicio6 {
 		Scanner leia = new Scanner(System.in);
 		
 		System.out.println("Digite o nome do Colaborador: ");
-		nome = leia.nextLine(); //nextline aceita palavras compostas, mais de uma.
+		nome = leia.nextLine(); //nextline aceita palavras compostas.
 		
 		System.out.println("Digite o Código do cargo do Colaborador: ");
 		codCargo = leia.nextInt();
